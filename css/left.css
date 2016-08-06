@@ -1,0 +1,115 @@
+/*左边部分*/
+.left{
+	float: left;
+	width: 246px;
+	height: 1601px;
+	
+}
+
+.left .leftx{
+	background: #224E89;
+	width: 246px;
+	height: 250px;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+
+.left .leftx .left-title{
+	padding-top:5px ;
+	padding-left:10px ;
+}
+.left .leftx .left-title a{
+	text-decoration: none;
+	color: white;
+}
+
+.left .leftx .more{
+	padding-top:5px ;
+	padding-right:10px ;
+}
+.left .leftx .more a{
+	text-decoration: none;
+	color: white;
+}
+
+.left .content{
+	background: white;
+	width: 238px;
+	height: 190px;
+	margin-left: 4px;
+}
+.left .leftx .content .content-title{
+	padding-top:10px;
+}
+.left .leftx .content .content-title a{
+	text-decoration: none;
+	color: black;
+}
+
+.left .leftx .content ul li{
+	list-style: none;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 5px;
+	line-height: 20px;
+	border-bottom:1px dashed #000;
+	padding-bottom: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.left .leftx .content ul li .list-a{
+	text-decoration: none;
+	margin-left: -5px;
+}
+
+/*左边第四个模块样式*/
+.left .left4{
+	background: #224E89;
+	width: 246px;
+	height: 215px;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+
+.left .left4 .left-title{
+	padding-top:5px ;
+	padding-left:10px ;
+}
+.left .left4 .left-title a{
+	text-decoration: none;
+	color: white;
+}
+
+.left .left4 .more{
+	padding-top:5px ;
+	padding-right:10px ;
+}
+.left .left4 .more a{
+	text-decoration: none;
+	color: white;
+}
+.left .left4 .content{
+	background: white;
+	width: 238px;
+	height: 145px;
+	margin-left: 4px;
+	padding-top: 10px;
+}
+
+
+.left .left4 .content ul li{
+	list-style: none;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 5px;
+	line-height: 20px;
+	padding-bottom: 2px;
+}
+.left .left4 .content ul li .list-a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: -4px;
+	padding-left: 2px;
+}

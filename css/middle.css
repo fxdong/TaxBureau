@@ -1,0 +1,49 @@
+.middle{
+	float: left;
+	background: #ff0088;
+	width: 498px;
+	height: 1601px;
+	margin-top: 1px;
+}
+
+.middle-top{
+	background: #aaaaaa;
+	width: 494px;
+	height: 400px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.middle-top ul li{
+	background: url(../img/tab_red_normal.gif);
+	display: inline-block;
+	width: 162px;
+	height: 38px;
+	float: left;
+	margin-left: 1px;
+	margin-right: 1px;
+	line-height: 36px;
+	text-align: center;
+}
+.middle-top ul li:hover{
+	background: url(../img/tab_red_selected.gif);
+	display: inline-block;
+	width: 148px;
+	height: 38px;
+	float: left;
+	margin-left: 8px;
+	margin-right: 8px;
+	line-height: 36px;
+	text-align: center;
+}
+.middle-top ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "微软雅黑";
+}
+.middle-top .line{
+	clear: both;
+	background: url(../img/tab_red_line.gif);
+	height: 5px;
+}
+

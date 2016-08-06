@@ -1,132 +1,29 @@
+@import url("header.css");
+@import url("left.css");
+@import url("nav.css");
+@import url("middle.css");
 *{
 	margin: 0px;
 	padding: 0px;
 }
 .container{
 	width: 990px;
-	height: 2000px;
+	height: 2200px;
 	margin: auto;
 }
-.header{
-	background: url(../img/logo.gif);
-	width: 990px;
-	height: 251px;
-}
 
-/*导航栏样式*/
-.nav{
-	background: url(../img/menu_bg.gif);
-	height: 40px;
-	width: 990px;
-	line-height: 40px;
-}
-/*导航栏按钮样式*/
-.nav ul li{
-	background: url(../img/menu_normal.gif);
-	width:80px;
-	height:32px;
-	float: left;
-	margin-left: 3px;
-	margin-right: 7px;
-	margin-top: 4px;
-	list-style: none;
-	text-align: center;
-	line-height: 32px;
-}
-.nav ul li a{
-	text-decoration: none;
-	color: white;
-}
-.nav ul li:hover{
-	background: url(../img/menu_selected.gif);
-}
 
-.nav ul li:hover .option{
-	display: block;
-}
-/*子菜单样式*/
-.nav ul li ul .option{
-	background: url(../img/menu_normal.gif);
-	width:80px;
-	height:32px;
-	margin-left: 0px;
-	margin-right: 7px;
-	margin-top: 0px;
-	list-style: none;
-	text-align: center;
-	text-decoration: none;
-	line-height: 32px;
-	position: relative;
-	z-index: 20;
-	display: none;
-}
-.nav ul li ul .option:hover{
-	background: url(../img/menu_selected.gif);
-}
 /*广告部分样式*/
 .ad{
 	background: url(../img/ad.gif);
 	width: 990px;
 	height: 63px;
 }
-/*左边部分*/
-.left{
-	float: left;
-	width: 246px;
-	height: 1401px;
-	
-}
-.left .leftx{
-	background: #224E89;
-	width: 246px;
-	height: 250px;
-	border-radius: 5px;
-	margin-top: 2px;
-}
-.left .leftx .left-title{
-	padding-top:5px ;
-	padding-left:10px ;
-}
-.left .leftx .left-title a{
-	text-decoration: none;
-	color: white;
-}
-.left .leftx .more{
-	padding-top:5px ;
-	padding-right:10px ;
-}
-.left .leftx .more a{
-	text-decoration: none;
-	color: white;
-}
-.left .content{
-	background: white;
-	width: 238px;
-	height: 190px;
-	margin-left: 4px;
-}
-.left .leftx .content .content-title{
-	padding-top:20px;
-}
-.left .leftx .content .content-title a{
-	text-decoration: none;
-	color: black;
-}
-.left .leftx .content ul li{
-	list-style: url(../img/li_bg.gif);
-	margin-left: 40px;
-}
-.middle{
-	float: left;
-	background: #ff0088;
-	width: 498px;
-	height: 1401px;
-	
-}
+
 .right{
 	float: left;
 	width: 246px;
-	height: 1401px;
+	height: 1601px;
 	
 }
 .right .right1{

@@ -1,0 +1,50 @@
+/*导航栏样式*/
+.nav{
+	background: url(../img/menu_bg.gif);
+	height: 40px;
+	width: 990px;
+	line-height: 40px;
+}
+/*导航栏按钮样式*/
+.nav ul li{
+	background: url(../img/menu_normal.gif);
+	width:80px;
+	height:32px;
+	float: left;
+	margin-left: 3px;
+	margin-right: 7px;
+	margin-top: 4px;
+	list-style: none;
+	text-align: center;
+	line-height: 32px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.nav ul li:hover{
+	background: url(../img/menu_selected.gif);
+}
+
+.nav ul li:hover .option{
+	display: block;
+}
+/*子菜单样式*/
+.nav ul li ul .option{
+	background: url(../img/menu_normal.gif);
+	width:80px;
+	height:32px;
+	margin-left: 0px;
+	margin-right: 7px;
+	margin-top: 0px;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	line-height: 32px;
+	position: relative;
+	z-index: 20;
+	display: none;
+}
+.nav ul li ul .option:hover{
+	background: url(../img/menu_selected.gif);
+}
