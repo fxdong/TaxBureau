@@ -2,8 +2,8 @@
 .left{
 	float: left;
 	width: 246px;
-	height: 1601px;
-	
+	height: 1690px;
+	margin-top: 1px;
 }
 
 .left .leftx{
@@ -61,6 +61,7 @@
 .left .leftx .content ul li .list-a{
 	text-decoration: none;
 	margin-left: -5px;
+	color: black;
 }
 
 /*左边第四个模块样式*/
@@ -112,4 +113,5 @@
 	font-size: 16px;
 	margin-left: -4px;
 	padding-left: 2px;
+	color: black;
 }

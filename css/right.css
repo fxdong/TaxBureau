@@ -1,0 +1,123 @@
+.right{
+	float: left;
+	width: 246px;
+	height: 1690px;
+	margin-top: 1px;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+/**
+ * 
+ * 右边第一个模块样式
+ * 
+ */
+.right .right1{
+	background: #D60000;
+	width: 246px;
+	height: 80px;
+	border-radius: 5px;
+	margin-top: 1px;
+}
+.right .right1 .p1{
+	margin-left: 20px;
+	width: 200px;
+	line-height: 40px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: black;
+}
+.right .right1 span{
+	background: url(../img/text_back.gif);
+}
+/**
+ * 
+ * 右边第二个模块样式
+ * 
+ */
+.right .right2{
+	background: #7C7981;
+	width: 246px;
+	height: 160px;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+.right .right2 h5{
+	background: url(../img/email_gray_top.gif);
+	margin-top: 2px;
+	padding-left: 15px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	color: white;
+}
+.right .right2 p{
+	line-height: 40px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.right .right2 input{
+	background: url(../img/text_back.gif);
+	width: 100px;
+}
+.right .right2 button{
+	width: 87px;
+	height: 28px;
+	background: url(../img/menu_normal.gif);
+	margin: auto;
+}
+.right .rightx{
+	background: #224E89;
+	width: 246px;
+	height: 250px;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+
+.right .rightx .left-title{
+	padding-top:5px ;
+	padding-left:10px ;
+}
+.right .rightx .left-title a{
+	text-decoration: none;
+	color: white;
+}
+
+.right .rightx .more{
+	padding-top:5px ;
+	padding-right:10px ;
+}
+.right .rightx .more a{
+	text-decoration: none;
+	color: white;
+}
+
+.right .content{
+	background: white;
+	width: 238px;
+	height: 130px;
+	margin-left: 4px;
+}
+.right .rightx .content .content-title{
+	padding-top:10px;
+}
+.right .rightx .content .content-title a{
+	text-decoration: none;
+	color: black;
+}
+
+.right .rightx .content ul li{
+	list-style: none;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 5px;
+	line-height: 20px;
+	border-bottom:1px dashed #000;
+	padding-bottom: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.right .rightx .content ul li .list-a{
+	text-decoration: none;
+	margin-left: -5px;
+	color: black;
+}
